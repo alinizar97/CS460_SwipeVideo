@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 "https://firebasestorage.googleapis.com/v0/b/swipevideoapp-4cb86.appspot.com/o/videos%2Fssstik.io_@areyoukiddingtv_1729229842759.mp4?alt=media"));
         videoItems.add(new VideoItem("Funny 2", "This is the second funny video",
                 "https://firebasestorage.googleapis.com/v0/b/swipevideoapp-4cb86.appspot.com/o/videos%2Fssstik.io_@joshnasar_1729232358961.mp4?alt=media"));
-        // Add more videos as needed
+        videoItems.add(new VideoItem("Funny 3", "This is the third funny video",
+                "https://firebasestorage.googleapis.com/v0/b/swipevideoapp-4cb86.appspot.com/o/videos%2Fssstik.io_@pokemyheart_1729234279893.mp4?alt=media"));
 
         // Set the adapter for ViewPager2 to display video items
         videosViewPager.setAdapter(new VideoAdapter(videoItems));
